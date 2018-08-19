@@ -10,10 +10,7 @@ function palindrome(str) {
   if (str == "1 eye for of 1 eye.") {
     return false;
   } else 
-  if (word1 == word2) {
-  return true;
-  } else {
-  return false;
+  return word1 === word2;
   }
 }
 
